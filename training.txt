@@ -1,0 +1,42 @@
+TABLES
+1. USERS
+2. COURSES
+3. MODULES
+4. PAYMENTS
+
+USER
+    1. First Name
+    2. Last Name
+    3. Role
+    4. Email
+    5. Password
+    6. ID
+
+COURSE
+    1. ID
+    2. CourseName
+    3. Description
+    4. Price
+    5. ImageUrl
+
+MODULE
+    1. ModuleTitle
+    2. ID
+    3. Type (Text,Powerpoint,Video)
+    4. Content
+    5. Intro
+
+PAYMENT
+    1. ID
+    2. USER_ID
+    3. COURSE_ID
+    4. AMOUNT
+    5. CODE
+    6. ACCOUNT_NO
+
+PAGES
+1. LIST OF COURSES
+2. DETAILS FOR ONE COURSE
+3. PAYMENT PAGE
+4. LOGIN/SIGNUP/ACCOUNTSPAGE
+5. HOMEPAGE

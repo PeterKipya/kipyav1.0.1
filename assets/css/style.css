@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+@font-face {
+    font-family: FuturaBold;
+    src: url('../fonts/futura/Futura\ Bold\ font.ttf');
+  }
+  @font-face {
+    font-family: Futura;
+    src: url('../fonts/futura/Futura\ Light\ font.ttf');
+  }
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Futura', sans-serif;
+    background-color: ghostwhite;
+}
+
+h1{
+    font-family: FuturaBold;
+}
+
+/* .navbar{
+    margin-left: 144px !important;
+} */
+
+.subbrand{
+    color: #fcca0a;
+    font-size: 10px;
+    font-family: 'Futura', sans-serif;
+}
+
+.ktts_subbrand{
+    color: #ffffff;
+    font-size: 10px;
+    font-family: 'Futura', sans-serif;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.bg-dark{
+    background-color: #414141 !important;
+}
+
+.form-control{
+    margin: 20px 0px;
+}
+
+.primary_btn{
+    background-color: #fcca0a;
+    padding: 10px;
+    border-radius: 5px;
+    color: black !important;
+    text-decoration: none;
+}
+.secondary_btn {
+    color: black !important;
+    padding: 10px 15px !important;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+
+/* Add the below transitions to allow a smooth color change similar to lyft */
+.navbar {
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar.scrolled {
+    background: #2e2e2e;
+    /* IE */
+    background: #2e2e2e;
+    /* NON-IE */
+}
+
+.nav-item{
+    margin: 0 10px;
+    color: #fcca0a;
+}
+.nav-link{
+    margin: 0 10px;
+    color: #fcca0a;
+}
